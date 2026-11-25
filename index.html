@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Learn Finnish with Heidi</title>
+<meta name="description" content="Friendly Finnish courses for English speakers: short videos, printable PDFs and clear lesson plans, from anywhere in the world.">
+<!-- Draft mode: remove the next line when you launch so Google can find the site -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Crect width='30' height='30' rx='8' fill='%23ffc72c'/%3E%3Crect x='8' width='6' height='30' fill='%230b1f4d'/%3E%3Crect y='12' width='30' height='6' fill='%230b1f4d'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;900&family=Figtree:wght@400;500;700&display=swap">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<div class="wrap nav">
+<a class="brand" href="#top" aria-label="Learn Finnish with Heidi">
+<svg width="32" height="32" viewBox="0 0 30 30" aria-hidden="true"><rect width="30" height="30" rx="8" fill="#ffc72c"/><rect x="8" width="6" height="30" fill="#0b1f4d"/><rect y="12" width="30" height="6" fill="#0b1f4d"/></svg>
+Learn Finnish with Heidi</a>
+<nav>
+<button id="menu" aria-label="Menu">Menu</button>
+<ul id="links">
+<li><a href="#why">Why Heidi</a></li>
+<li><a href="#try">Free sample</a></li>
+<li><a href="#courses">Courses</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a class="btn" href="#courses">Start learning</a></li>
+</ul>
+</nav>
+</div>
+<div id="bar"></div>
+</header>
+
+<main id="top">
+<div class="hero" id="hero">
+<div class="wrap">
+<div>
+<div class="eyebrow">Say <span id="rot">Hei</span> to Finnish</div>
+<h1>Learn Finnish with <span class="hl">Heidi</span></h1>
+<p>Short, friendly video lessons, printable PDFs and clear lesson plans, made for English speakers everywhere. Start speaking in just minutes a day.</p>
+<form id="signup">
+<input type="email" required placeholder="Your email address" aria-label="Email address">
+<button class="btn" type="submit">Get the free lesson</button>
+</form>
+<div id="msg" role="status"></div>
+<div class="note">Free weekly Finnish tips. Unsubscribe any time.</div>
+</div>
+<div class="sunwrap" aria-hidden="true">
+<div class="rays"></div><div class="sun"></div>
+<span class="chip" style="left:2%;top:12%">Hei!</span>
+<span class="chip" style="right:0;top:6%;animation-delay:-1.5s">Kiitos</span>
+<span class="chip" style="left:0;bottom:16%;animation-delay:-3s">Sisu</span>
+<span class="chip" style="right:4%;bottom:10%;animation-delay:-2s">Moi moi</span>
+</div>
+</div>
+<svg class="pines" viewBox="0 0 1200 150" preserveAspectRatio="none" aria-hidden="true">
+<path fill="#071433" d="M0 150V95l25-55 25 55-12 0 22 38-12 0 20 34zM100 150V100l30-70 30 70-14 0 24 40-14 0 22 40zM230 150V90l22-48 22 48h-10l18 32h-10l14 28zM340 150V100l26-60 26 60h-12l20 34h-12l16 16zM470 150V92l30-66 30 66h-14l24 40h-14l18 18zM600 150V104l22-50 22 50h-10l16 30h-10l12 16zM700 150V90l28-62 28 62h-13l22 38h-13l20 22zM830 150V100l24-54 24 54h-11l18 32h-11l14 18zM940 150V88l30-68 30 68h-14l24 40h-14l18 22zM1070 150V102l24-52 24 52h-11l18 30h-11l14 20zM1150 150V94l24-50 26 50z"/>
+</svg>
+</div>
+
+<div class="marq" aria-hidden="true"><div id="mq"></div></div>
+
+<section id="why">
+<div class="wrap">
+<div class="eyebrow rv" style="color:var(--mut)">Miksi · Why</div>
+<h2 class="rv">Finnish, made simple and friendly.</h2>
+<p class="lead rv">Finnish has a reputation for being hard. With the right order of lessons and a calm teacher, it becomes surprisingly logical.</p>
+<div class="grid">
+<div class="card rv"><div class="ico">🎬</div><h3>Short video lessons</h3><p>Watch Heidi explain real, useful phrases in clear English. Replay as often as you like.</p></div>
+<div class="card rv" style="--d:.1s"><div class="ico">📄</div><h3>Printable lesson PDFs</h3><p>Every lesson comes with notes, vocabulary and exercises to keep and revise offline.</p></div>
+<div class="card rv" style="--d:.2s"><div class="ico">🗺️</div><h3>A clear lesson plan</h3><p>No guessing what to study next. Follow the plan step by step at your own pace.</p></div>
+<div class="card rv" style="--d:.3s"><div class="ico">🌍</div><h3>Learn from anywhere</h3><p>Open it on your phone, tablet or laptop, in any time zone, whenever it suits you.</p></div>
+</div>
+</div>
+</section>
+
+<section id="try" class="dark">
+<div class="wrap demo">
+<div class="rv">
+<div class="eyebrow">Kokeile · Try it</div>
+<h2>Try a few Finnish words right now.</h2>
+<p class="lead">Tap the card to flip it and see the meaning and how to say it. These are words you will meet in your very first lessons.</p>
+<div class="tools"><button class="btn" id="next">Next word</button><a class="btn ghost" href="#courses">See courses</a></div>
+</div>
+<button class="flip rv" id="card" style="--d:.15s" aria-label="Flashcard, tap to flip"><div class="inner"><div class="face f1"><b id="fw">Hei</b><small>Tap to reveal</small></div><div class="face f2"><b id="fm">Hello</b><small id="fp">Say it: hay</small></div></div></button>
+</div>
+</section>
+
+<section id="courses">
+<div class="wrap">
+<div class="eyebrow rv" style="color:var(--mut)">Kurssit · Courses</div>
+<h2 class="rv">Choose your Finnish course.</h2>
+<p class="lead rv">Lifetime access to every course. Prices include VAT, and you pay in your own currency at checkout.</p>
+<div class="grid">
+<div class="card rv"><h3>Finnish for Beginners 1</h3><p>Greetings, introductions and everyday basics.</p><ul><li>Video lessons</li><li>PDF for every lesson</li><li>Lifetime access</li></ul><div class="price">€49 <small>one-time</small></div><br><a class="btn navy" href="#">Enroll now</a></div>
+<div class="card feat rv" style="--d:.12s"><span class="tag">⭐ Best value</span><h3>Complete Beginner Bundle</h3><p>Everything you need to hold your first conversations.</p><ul><li>Beginners 1 and 2</li><li>Full lesson plan</li><li>Bonus vocabulary PDF</li></ul><div class="price">€89 <small>one-time</small></div><br><a class="btn" href="#">Enroll now</a></div>
+<div class="card rv" style="--d:.24s"><h3>Finnish for Beginners 2</h3><p>Build sentences, ask questions and talk about your day.</p><ul><li>Video lessons</li><li>PDF for every lesson</li><li>Lifetime access</li></ul><div class="price">€59 <small>one-time</small></div><br><a class="btn navy" href="#">Enroll now</a></div>
+</div>
+</div>
+</section>
+
+<section class="dark">
+<div class="wrap">
+<div class="eyebrow rv">Näin se toimii · How it works</div>
+<h2 class="rv">Three steps to your first conversation.</h2>
+<div class="grid steps">
+<div class="card rv" style="color:#0b1f4d;background:#fff4d6;--shadow:#ffc72c"><h3>Pick a course</h3><p style="color:#4d5c82">Start with Beginners 1, or take the bundle for the full path.</p></div>
+<div class="card rv" style="--d:.15s;color:#0b1f4d;background:#fff4d6;--shadow:#ffc72c"><h3>Watch and practise</h3><p style="color:#4d5c82">Follow the lesson plan, watch the video and work through the PDF.</p></div>
+<div class="card rv" style="--d:.3s;color:#0b1f4d;background:#fff4d6;--shadow:#ffc72c"><h3>Speak Finnish</h3><p style="color:#4d5c82">Use your new phrases with friends, colleagues and neighbours.</p></div>
+</div>
+</div>
+</section>
+
+<section id="about" class="ylw">
+<div class="wrap about">
+<div class="portrait rv" aria-hidden="true">H</div>
+<div class="rv" style="--d:.15s">
+<div class="eyebrow" style="color:#0b1f4d">Moi! · Hi!</div>
+<h2>Hi, I’m Heidi.</h2>
+<p class="lead">I teach Finnish in a calm, practical way. I know what it is like to learn Finnish as an adult, and I built these lessons around what you really need in daily life. Add your own story and photo here.</p>
+<a class="btn navy" href="#courses">Learn with me</a>
+</div>
+</div>
+</section>
+
+<section id="faq">
+<div class="wrap" style="max-width:780px">
+<h2 class="rv">Questions, answered.</h2>
+<details class="rv"><summary>Do I need to know any Finnish already?</summary><p>No. The beginner courses start from zero and explain everything in English.</p></details>
+<details class="rv"><summary>How long do I have access?</summary><p>You get lifetime access to the course you buy, including future updates to its lessons.</p></details>
+<details class="rv"><summary>Can I study on my phone?</summary><p>Yes. The lessons work on phones, tablets and computers, and the PDFs can be downloaded.</p></details>
+<details class="rv"><summary>Can I get a refund?</summary><p>Add your refund policy here. EU customers have special rights for digital purchases, so check the rules before you publish.</p></details>
+<details class="rv"><summary>Which currencies and payment methods do you accept?</summary><p>Cards and common online payment methods, depending on your checkout provider.</p></details>
+</div>
+</section>
+
+<div class="cta">
+<div class="wrap rv">
+<h2>Ready to say <span class="hl" style="animation-delay:0s">Hei</span> in Finnish?</h2>
+<p style="color:#b9c6e6;margin:0 auto 28px;max-width:520px">Join learners from around the world and start your first lesson today.</p>
+<a class="btn" href="#courses">Start learning today</a>
+</div>
+</div>
+</main>
+
+<footer>
+<div class="wrap">
+<p><b style="color:#fff4d6">Learn Finnish with Heidi</b> · Finnish for English speakers, worldwide.</p>
+<p><a href="#">Privacy policy</a><a href="#">Terms</a><a href="#">Refund policy</a><a href="#">Contact</a></p>
+<p>© <span id="yr">2026</span> Learn Finnish with Heidi. All rights reserved.</p>
+</div>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
